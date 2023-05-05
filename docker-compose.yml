@@ -1,0 +1,17 @@
+version: '3.9'
+services:
+  http:
+    image: nginx:latest
+    ports:
+      - 80:80
+    volumes:
+      - ./volumes/http-config:/etc/nginx/conf.d
+      - ./volumes/http-index:/usr/share/nginx/html
+  https:
+    image: nginx:latest
+    ports:
+      - 443:443
+    volumes:
+      - ./volumes/https-config:/etc/nginx/conf.d
+      - ./volumes/https-index:/usr/share/nginx/html
+      - ./volumes/certs:/etc/nginx/certs

@@ -1,0 +1,116 @@
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+
+  body {
+    background-color: #c6c6c67b;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1.5rem 2.5rem;
+    margin: 2rem;
+    background-color: #0d0d0d;
+    border: 2px solid #fff;
+    border-radius: 1rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #fff;
+}
+
+.btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 10px #fff;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn-main {
+    background-color: #0e76a8;
+    border-color: #0e76a8;
+    box-shadow: 0px 0px 10px #0e76a8;
+}
+
+.btn-main1 {
+    background-color: #000000;
+    border-color: #ffffff;
+    box-shadow: 0px 0px 5px #000000;
+    padding: 1,5rem 2.5rem;
+}
+
+.btn-github {
+    background-color: #333;
+    border-color: #333;
+    box-shadow: 0px 0px 5px #fff;
+}
+
+.btn-stackoverflow {
+    background-color: #f48024;
+    border-color: #f48024;
+    box-shadow: 0px 0px 5px #fff;
+}
+
+.btn:hover, .btn:focus {
+    background-color: #fff;
+    color: #0d0d0d;
+}
+
+.imagem {
+  transition: transform 0.3s ease-in-out;
+}
+
+.imagem:hover {
+  transform: scale(1.1);
+}
